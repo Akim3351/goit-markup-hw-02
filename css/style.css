@@ -40,6 +40,8 @@ h2 {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .section1 {
@@ -57,7 +59,6 @@ h2 {
   font-size: 44px;
   font-weight: 700;
   line-height: 60px;
-  padding-top: 200px;
   text-align: center;
   letter-spacing: 6%;
 }
@@ -66,7 +67,6 @@ h2 {
   width: 200px;
   height: 50px;
   margin-left: 700px;
-  margin-top: 150px;
   margin-bottom: 200px;
   background-color: #2196f3;
   font-weight: 700;
@@ -99,7 +99,7 @@ td {
 
 .section2 {
   width: 1600px;
-  height: 650px;
+  height: 290px;
   padding-top: 95px;
 }
 
@@ -115,20 +115,76 @@ td {
 }
 
 .ul1 {
-  padding-left: 166px;
+  margin-left: 166px;
 }
 
 .li1 {
+  margin-left: 166px;
+  margin-top: 50px;
   display: inline;
-  padding-left: 166px;
 }
 
 .li2 {
+  margin-top: 50px;
   display: inline;
   padding-left: 40px;
 }
 
 .li3 {
+  margin-top: 50px;
   display: inline;
   padding-left: 40px;
+}
+
+.fig1 {
+  display: block; /* Блочный элемент */
+  float: left; /* Блоки выстраиваются по горизонтали */
+  width: 270px;
+  margin-left: 215px;
+  margin-top: 50px;
+  margin-bottom: 95px;
+}
+
+.fig2 {
+  display: block; /* Блочный элемент */
+  float: left; /* Блоки выстраиваются по горизонтали */
+  width: 270px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 95px;
+}
+
+.fig3 {
+  display: block; /* Блочный элемент */
+  float: left; /* Блоки выстраиваются по горизонтали */
+  width: 270px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 95px;
+}
+
+.fig4 {
+  display: block; /* Блочный элемент */
+  float: left; /* Блоки выстраиваются по горизонтали */
+  width: 270px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 95px;
+}
+
+.figname {
+  font-weight: 500px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 20px;
+}
+
+.figprofession {
+  color: #757575;
+  font-weight: 400px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 20px;
 }
