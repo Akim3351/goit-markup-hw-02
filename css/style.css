@@ -3,45 +3,77 @@
   margin: 0;
   max-width: 1600px;
   box-sizing: border-box;
-  font-family: Roboto;
+  font-family: Raleway, sans-serif;
+
+  /* font-family: Roboto, sans-serif; */
 }
+
 body {
   display: flex;
   flex-direction: column;
 }
 
-header {
-  position: inline;
-  border: 1px solid;
+.header1 {
+  float: left;
+  padding-left: 215px;
   background-color: #ececec;
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
+  display: block;
 }
 
-/* .headerlist {
-  flex-direction: row;
-} */
+.headerlist {
+  margin-top: 32px;
+  margin-left: 95px;
+  display: inline;
+}
 
 footer {
-  border: 1px solid;
   background-color: #2f303a;
+  padding-left: 215px;
+}
+
+.footertitle {
+  text-align: left;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: Raleway, sans-serif;
 }
 
 h1 {
-  text-decoration: none;
-  margin-left: 215;
-  font-family: Raleway;
+  float: left;
   font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 93px;
+  font-family: Raleway, sans-serif;
+}
+
+nav {
+  float: left;
+  display: inline;
+}
+
+address {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  vertical-align: baseline;
+}
+
+.liheader1 {
+  float: left;
 }
 
 h2 {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .section1 {
@@ -60,7 +92,6 @@ h2 {
   font-weight: 700;
   line-height: 60px;
   text-align: center;
-  letter-spacing: 6%;
 }
 
 .button1 {
@@ -87,11 +118,12 @@ th {
 td {
   padding-top: 20px;
   padding-left: 30px;
-  width: 280px;
+  width: 290px;
   height: 75px;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  letter-spacing: 0.03em;
   color: #757575;
   vertical-align: top;
   text-align: justify;
@@ -115,30 +147,28 @@ td {
 }
 
 .ul1 {
-  margin-left: 166px;
+  margin-top: 50px;
+  margin-left: 210px;
+  margin-right: 210px;
 }
 
 .li1 {
-  margin-left: 166px;
-  margin-top: 50px;
   display: inline;
 }
 
 .li2 {
-  margin-top: 50px;
   display: inline;
-  padding-left: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .li3 {
-  margin-top: 50px;
   display: inline;
-  padding-left: 40px;
 }
 
 .fig1 {
-  display: block; /* Блочный элемент */
-  float: left; /* Блоки выстраиваются по горизонтали */
+  display: block;
+  float: left;
   width: 270px;
   margin-left: 215px;
   margin-top: 50px;
@@ -146,8 +176,8 @@ td {
 }
 
 .fig2 {
-  display: block; /* Блочный элемент */
-  float: left; /* Блоки выстраиваются по горизонтали */
+  display: block;
+  float: left;
   width: 270px;
   margin-top: 50px;
   margin-left: 30px;
@@ -155,8 +185,8 @@ td {
 }
 
 .fig3 {
-  display: block; /* Блочный элемент */
-  float: left; /* Блоки выстраиваются по горизонтали */
+  display: block;
+  float: left;
   width: 270px;
   margin-top: 50px;
   margin-left: 30px;
@@ -164,16 +194,16 @@ td {
 }
 
 .fig4 {
-  display: block; /* Блочный элемент */
-  float: left; /* Блоки выстраиваются по горизонтали */
+  display: block;
+  float: left;
   width: 270px;
   margin-top: 50px;
   margin-left: 30px;
   margin-bottom: 95px;
 }
 
-.figname {
-  font-weight: 500px;
+.figcapt1 {
+  font-weight: 500;
   font-size: 16px;
   text-align: center;
   margin-top: 30px;
@@ -182,9 +212,23 @@ td {
 
 .figprofession {
   color: #757575;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   text-align: center;
   margin-top: 30px;
-  line-height: 20px;
+  line-height: 30px;
+}
+
+.footeraddress {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24;
+}
+
+.footerlink {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24;
 }
