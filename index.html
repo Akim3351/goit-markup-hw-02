@@ -5,78 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
+    <link rel="stylesheet" href="./css/normalize.css">
     <link 
     rel="stylesheet" 
     href="./css/style.css">
     <link 
     rel="preconnect" 
     href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Condensed&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet"></head>
 <body>
-    <header class="header1">
-        <nav>
-            <h1><a href="./index.html">WebStudio</a></h1>
-            <ul class="headerlist">
-                <li class="headerlist"> <a href="#">Студия</a></li>
-                <li class="headerlist"> <a href="./portfolio.html">Портфолио</a></li>
-                <li class="headerlist"> <a href="#">Контакты</a></li>
+    <header class="indexheader">
+        <h1 class="h1"><span class="webprefix">Web</span>Studio</h1>
+        <nav class="nav">
+            <ul>
+                <li class="studio"> <a href="./index.html">Студия</a></li>
+                <li class="portfolio"> <a href="./portfolio.html">Портфолио</a></li>
+                <li class="contacts"> <a href="#">Контакты</a></li>
             </ul>
         </nav>
-        <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </address>
-        <address>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+            <address class="mail">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </address>
+            <address class="phone">
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </address>
     </header>
     <main>
-        <section class="section1">
-            <h2 class="h2item1">
+        <section class="ordersection">
+            <p class="effective">
                 ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА
-            </h2>
-            <button class="button1">
+            </p>
+            <button class="orderbutton">
                 Заказать услугу
             </button>
         </section>
-            <table class="table1">
-                <tr>
-                    <th>ВНИМАНИЕ К ДЕТАЛЯМ</th>
-                    <th>ПУНКТУАЛЬНОСТЬ</th>
-                    <th>ПЛАНИРОВАНИЕ</th>
-                    <th>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</th>
-                </tr>
-                <tr>
-                    <td>Идейные соображения, а также <br>
-                        начало повседневной работы по<br>
-                        формированию позиции.
-                    </td>
-                    <td>Задача организации, в особенности<br>
-                        же рамки и место обучения кадров<br>
-                        влечет за собой.
-                    </td>
-                    <td>Равным образом консультация с<br>
-                        широким активом в значительной<br>
-                        степени обуславливает.
-                    </td>
-                    <td>Значимость этих проблем настолько<br>
-                        очевидна, что реализация плановых<br>
-                        заданий.
-                    </td>
-                </tr>
-            </table>
         <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul class="ul1">
-            <li class="li1"><img width="370" src="images/img_1.jpg" alt="картинка 1"/></li>
-            <li class="li2"><img width="370" src="images/img_2.jpg" alt="картинка 2"/></li>
-            <li class="li3"><img width="370" src="images/img_3.jpg" alt="картинка 3"/></li>
+        <h4 style="display: none;">Наши преимущества</h4>
+        <ul class="advantages">
+            <li class="attention">
+                <p class="advh4">ВНИМАНИЕ К ДЕТАЛЯМ</p>
+                <p class="advp">Идейные соображения, а также <br> 
+                    начало повседневной работы по<br>
+                    формированию позиции.
+                </p>
+            </li>
+            <li class="punctuality">
+                <p class="advh4">ПУНКТУАЛЬНОСТЬ</p>
+                <p class="advp">Задача организации, в особенности<br>
+                    же рамки и место обучения кадров<br>
+                    влечет за собой.
+                </p>
+            </li>
+            <li class="planning">
+                <p class="advh4">ПЛАНИРОВАНИЕ</p>
+                <p class="advp">Равным образом консультация с<br>
+                    широким активом в значительной<br>
+                    степени обуславливает.
+                </p>
+            </li>
+            <li class="modern">
+                <p class="advh4">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</p>
+                <p class="advp">Значимость этих проблем настолько<br>
+                    очевидна, что реализация плановых<br>
+                    заданий.
+                </p>
+            </li>
             </ul>
         </section>
-        <section>
-            <h2>Наша команда</h2>
+        <section class="activitiessection">
+            <h2 class="activities">Чем мы занимаемся</h2>
+            <ul class="ul1">
+            <li class="img1"><img src="images/img_1.jpg" alt="картинка 1"/></li>
+            <li class="img2"><img src="images/img_2.jpg" alt="картинка 2"/></li>
+            <li class="img3"><img src="images/img_3.jpg" alt="картинка 3"/></li>
+            </ul>
+        </section>
+        <section class="ourteamsection">
+            <h2 class="ourteam">Наша команда</h2>
             <figure class="fig1">
                 <img height="260" src="images/igor_dem.jpg" alt="Игорь Демьяненко"/>
                 <figcaption class="figcapt1">Игорь Демьяненко<br>
@@ -100,12 +108,14 @@
             </figure>
         </section>
     </main>
-    <footer>
-        <h2 class="footertitle"><a href="#">WebStudio</a></h2>
+    <footer class="footer">
+        <h1 class="h1foot"><span class="webprefix">Web</span>Studio</h1>
         <address>
-            <p class="footeraddress">г. Киев, пр-т Леси Украинки, 26</p>
-            <p class="footerlink"><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-            <p class="footerlink"><a href="tel:+380961111111">+38 096 111 11 11</a></p>
+            <ul class="footercontacts">
+            <li class="footeraddress">г. Киев, пр-т Леси Украинки, 26</li>
+            <li class="footerlink"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="footerlink"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
         </address>
     </footer>
 </body>

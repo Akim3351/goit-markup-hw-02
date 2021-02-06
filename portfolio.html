@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" 
-rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" 
-rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Condensed&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    </head>
 <body>
-    <header>
-        <nav>
-            <h1><a href="./index.html">WebStudio</a></h1>
+    <header class="indexheader">
+        <h1 class="h1"><span class="webprefix">Web</span>Studio</h1>
+        <nav class="nav">
             <ul>
-                <li> <a href="#">Студия</a></li>
-                <li> <a href="#">Портфолио</a></li>
-                <li> <a href="#">Контакты</a></li>
+                <li class="studio"> <a href="./index.html">Студия</a></li>
+                <li class="portfolio"> <a href="./portfolio.html">Портфолио</a></li>
+                <li class="contacts"> <a href="#">Контакты</a></li>
             </ul>
         </nav>
-        <address>
+        <address class="mail">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </address>
-        <address>
+        <address class="phone">
             <a href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
     </header>
@@ -92,12 +93,14 @@ rel="stylesheet">
 
         </section>
     </main>
-    <footer>
-        <h2><a href="./index.html">WebStudio</a></h2>
+    <footer class="footer">
+        <h1 class="h1foot"><span class="webprefix">Web</span>Studio</h1>
         <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <p><a href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-            <p><a href="tel:+380961111111">+38 096 111 11 11</a></p>
+            <ul class="footercontacts">
+                <li class="footeraddress">г. Киев, пр-т Леси Украинки, 26</li>
+                <li class="footerlink"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footerlink"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
         </address>
     </footer>
 </body>
