@@ -33,7 +33,7 @@
 }
 
 .h1 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 36px;
   font-weight: 700;
@@ -46,6 +46,7 @@
 
 .webprefix {
   color: var(--blue);
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav {
