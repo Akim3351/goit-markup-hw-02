@@ -15,15 +15,19 @@
   max-width: 1600px;
   box-sizing: border-box;
   line-height: 1.15;
-  font-family: Roboto, sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .indexheader {
   padding-left: 215px;
+  padding-right: 235px;
   background-color: var(--white);
-  max-width: 1600px;
+  max-width: 1600px; 
   height: 80px;
   border: 1px;
+  border-color: var(--light-grey);
+  border-style: solid;
   display: inline-block;
 
 }
@@ -32,14 +36,12 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 36px;
+  font-weight: 700;
   margin-top: 24px;
   margin-bottom: 25px;
-  color: var(--black);
-  font-family: Raleway, sans-serif;
-}
-
-.h1 {
   float: left;
+  color: var(--black);
+  font-family: "Raleway", sans-serif;
 }
 
 .webprefix {
@@ -60,12 +62,17 @@
 
 .studio {
   margin-top: 32px;
-  margin-left: 93px;
   margin-right: 50px;
   display: inline;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  letter-spacing: 2%;
+}
+
+.studio.current,
+.portfolio.current {
+  color: var(--blue);
 }
 
 .portfolio {
@@ -75,6 +82,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  letter-spacing: 2%;
 }
 
 .contacts {
@@ -83,6 +91,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  letter-spacing: 2%;
 }
 
 .studio:link,
@@ -137,6 +146,8 @@ address:focus {
   font-size: 14px;
   font-weight: 500;
   line-height: 16px;
+  letter-spacing: 2%;
+  color: var(--grey);
   display: inline;
   margin-top: 32px;
   list-style-type: none;
@@ -150,11 +161,12 @@ address:focus {
 }
 
 .ordersection {
-  max-width: 1600px;
   height: 600px;
-  margin-top: 32px;
   padding-top: 200px;
   background-color: var(--dark-blue);
+  border: 1px;
+  border-color: var(--dark-blue);
+
 }
 
 .effective {
@@ -176,6 +188,12 @@ address:focus {
   margin-top: 30px;
   margin-left: 700px;
   margin-right: 700px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 6%;
+
 
 }
 
@@ -328,6 +346,128 @@ address:focus {
   text-align: center;
   margin-top: 30px;
   line-height: 19px;
+}
+
+.mainportfoliosection {
+  padding-top: 100px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.filterbuttons {
+  display: inline-block;
+  margin-bottom: 50px;
+
+}
+
+.alltypesbutton {
+  width: 73px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  background-color: var(--light-grey);
+  color: var(--black);
+  border-radius: 4px;
+  border: none;
+  float:left
+}
+ 
+.webbutton {
+  width: 128px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  background-color: var(--light-grey);
+  color: var(--black);
+  border-radius: 4px;
+  border: none;
+  float:left
+}
+
+.appbutton {
+  width: 145px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  background-color: var(--light-grey);
+  color: var(--black);
+  border-radius: 4px;
+  border: none;
+  float:left
+}
+
+
+.designbutton {
+  width: 103px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  background-color: var(--light-grey);
+  color: var(--black);
+  border-radius: 4px;
+  border: none;
+  float:left
+}
+
+.marketbutton {
+  width: 130px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  background-color: var(--light-grey);
+  color: var(--black);
+  border-radius: 4px;
+  border: none;
+  float:left
+}
+
+.alltypesbutton:hover,
+.alltypesbutton:focus,
+.webbutton:hover,
+.webbutton:focus,
+.appbutton:hover,
+.appbutton:focus,
+.designbutton:hover,
+.designbutton:focus, 
+.marketbutton:hover,
+.marketbutton:focus {
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.portfitem {
+  margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 6%;
+  text-align: left;
+}
+
+.portftype {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 3%;
+  text-align: left;
+  color: var(--grey);
+
+
 }
 
 .footer {
